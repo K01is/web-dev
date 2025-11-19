@@ -1,0 +1,17 @@
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: crimson;
+}
+
+.relative {
+    position: relative;
+    background-color: black
+}
+
+.block {
+    left: 50px;
+    top: 5px;
+}

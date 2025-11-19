@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.row {
+    font-size: 0;
+}
+.col {
+    display: inline-block;
+    padding: 30px;
+    width: 25%;
+    height: 300px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: darkseagreen;
+}
+.col:nth-child(2n) {
+    background-color: aquamarine;
+}
+.col:nth-child(3) {
+    background-color: pink;
+}

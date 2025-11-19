@@ -1,0 +1,9 @@
+.block {
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: #ff0;*/
+    border-top: 10px solid #ff0;
+    border-bottom: 3px dashed black;
+    border-right: 1px dotted red;
+    border-left: 2px solid gray;
+}

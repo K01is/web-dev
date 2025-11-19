@@ -1,0 +1,13 @@
+.block {
+    border: 1px solid #000;
+    width: 150px;
+    height: 500px;
+}
+.max-width {
+    background-color: aqua;
+    border-color: blueviolet;
+    max-width: 1000px;
+    min-width: 320px;
+    max-height: 500px;
+    min-height: 200px;
+}

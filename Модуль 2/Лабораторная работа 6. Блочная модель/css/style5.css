@@ -1,0 +1,13 @@
+.element-1 {
+    background-color: red;
+    color: white;
+}
+.element-2 {
+    display: none;    /* Скрытый элемент*/
+    background-color: blueviolet;
+    color: white;
+}
+.element-3 {
+    background-color: green;
+    color: white;
+}

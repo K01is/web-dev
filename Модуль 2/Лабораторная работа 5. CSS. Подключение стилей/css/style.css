@@ -1,0 +1,31 @@
+h1 {font-size: 30px;
+    font-style: italic;
+    }
+.heading    {
+            color: green;
+            } 
+#ID     {
+        color: blue;
+        }
+.parent  {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+.child {
+    min-height: 50vh;
+    width: 33.33%;
+    background-color: rgb(17, 221, 34);
+    border: 2px solid #000;
+}
+
+html {
+    font-size: 10px;
+}
+.block {
+    font-size: 10px;
+}
+.block p {
+    font-size: 5rem;
+    margin-bottom: 1em;
+}

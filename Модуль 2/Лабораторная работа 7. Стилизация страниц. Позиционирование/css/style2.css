@@ -1,0 +1,13 @@
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: crimson;
+}
+
+.absolute {
+    position: absolute;
+    right: 100px;
+    top: 132px;
+}

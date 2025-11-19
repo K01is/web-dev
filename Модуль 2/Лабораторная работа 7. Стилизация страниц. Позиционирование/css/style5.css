@@ -1,0 +1,46 @@
+body {
+    /* min-height: 4000px; */
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content {
+    margin-top: 100px;
+}
+.header {
+    position: fixed; /* Шапка зафиксирована - не уезжает наверх при прокрутке */
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 820px;
+    max-height: 100px;
+    padding: 30px 0;
+    background-color: green;
+}
+.header-text {
+    
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.header-block {
+    display: inline-block;
+    /* min-width: 1000px; */
+    width: 90%;
+}
+.cart-block {
+    display: inline-block;
+    width: 70px;
+}
+.tovar {
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.footer {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}

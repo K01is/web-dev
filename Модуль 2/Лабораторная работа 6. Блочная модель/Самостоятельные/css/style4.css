@@ -1,0 +1,19 @@
+.col {
+    display: inline-block;
+    width: 30%;
+    min-width: 330px;
+    height: 200px;
+    background-color: rgb(245 222 179);
+    color: rgb(165 42 42);
+    font-size: 20px;
+    text-align: center;
+    /*line-height: 200px; /* Центрирование текста по вертикали */
+    margin: 0.1%; /* Отступ между блоками */
+    /*margin-left: 3px;*/
+    padding: 1px;
+    /*padding-bottom: 5px;*/
+    border-radius: 5px;  /* Скругление углов */
+}
+.col:nth-child(2n) {
+    background-color: rgb(11 110 62);
+}

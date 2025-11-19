@@ -1,0 +1,19 @@
+.element-1 {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 140px;
+}
+.element-2 {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+}
+.element-3 {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    width: 180px;
+    height: 120px;
+}
