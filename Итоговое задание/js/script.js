@@ -1,4 +1,3 @@
-// Данные о животных
 const petsData = [
     {
         id: 1,
@@ -74,7 +73,6 @@ const petsData = [
     }
 ];
 
-// Функция для отображения животных
 function displayPets(pets, containerId) {
     const petsContainer = document.getElementById(containerId);
     if (!petsContainer) return;
@@ -107,17 +105,14 @@ function displayPets(pets, containerId) {
     });
 }
 
-// Функция для отображения избранных животных (для главной страницы)
 function displayFeaturedPets() {
     const featuredContainer = document.getElementById('featured-pets');
     if (!featuredContainer) return;
     
-    // Берем первые 4 животных для показа на главной
     const featuredPets = petsData.slice(0, 4);
     displayPets(featuredPets, 'featured-pets');
 }
 
-// Функция для фильтрации животных
 function filterPets(filter) {
     const filterButtons = document.querySelectorAll('[data-filter]');
     filterButtons.forEach(btn => {
@@ -136,7 +131,6 @@ function filterPets(filter) {
     }
 }
 
-// Функция для поиска животных по имени
 function searchPets(query) {
     const filteredPets = petsData.filter(pet => 
         pet.name.toLowerCase().includes(query.toLowerCase())
@@ -144,13 +138,11 @@ function searchPets(query) {
     displayPets(filteredPets, 'pets-container');
 }
 
-// Функция для показа деталей животного
 function showPetDetails(id) {
     const pet = petsData.find(p => p.id === id);
     alert(`Подробная информация о ${pet.name}:\n\nПорода: ${pet.breed}\nВозраст: ${pet.age}\nПол: ${pet.gender}\n\nСвяжитесь с нами, чтобы узнать больше!`);
 }
 
-// Обработчик формы
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
@@ -161,11 +153,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Инициализация при загрузке страницы
     displayPets(petsData, 'pets-container');
     displayFeaturedPets();
     
-    // Обработчики для кнопок фильтра
     document.querySelectorAll('[data-filter]').forEach(button => {
         button.addEventListener('click', function() {
             const filter = this.getAttribute('data-filter');
@@ -173,7 +163,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Обработчик для поиска
     const searchInput = document.getElementById('search-pets');
     if (searchInput) {
         searchInput.addEventListener('input', function() {
